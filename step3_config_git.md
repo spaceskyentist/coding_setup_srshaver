@@ -1,4 +1,5 @@
-# Configuring Git/GitHub in VS Code (Optional, but useful!)
+# Configuring Git/GitHub in VS Code 😸
+Optional, but useful! 
 
 ## Step 1: Download and Install Git
 1. Open Terminal and run:
