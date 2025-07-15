@@ -33,5 +33,5 @@
 3. Navigate to your `.ipynb` file and open it.
 4. Under *Kernel* --> *Change Kernel*, select **"Python (my-venv-name)"**.
 
-## Done
+## ✅ Done!
 You're now running notebooks inside your virtual environment with all your installed packages. 
