@@ -14,7 +14,23 @@
     This creates a `.git` folder, which means your local Git repository is now active!
 
 ## Step 3: Create a `.gitignore` File (if you haven't already)
-1. 
+1. Create a `.gitignore` file in your project and add:
+
+   ```
+   # Ignore Python virtual environment
+   my-venv-name/
+
+   # Ignore VS Code settings
+   .vscode/
+
+   # Byte-compiled / cache files
+   __pycache__/
+   *.pyc
+
+   # Ignore system files
+   .DS_Store
+   ```
+     This file tells GitHub what to ignore in your Project folder when commiting messages, perfoming merges, push/pull commands, etc. If you don't do this, you'll likely have *thousands* of commits that can overload these commands!
 
 ## Step : Configure Git Username and Email
 1. Run these two commands (replacing the info with your own):
