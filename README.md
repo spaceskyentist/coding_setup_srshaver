@@ -1,6 +1,9 @@
 # coding_setup_srshaver
 This repository contains a step-by-step guide to setting up coding software on your **Mac**. 
 
+
+# Getting VSCode and Python Up and Running 🏃‍♀🏃‍♂💨
+
 ## Step 1: Download and Install VSCode
 1. Go to the VS Code website: [vscode](https://code.visualstudio.com)
 2. Click the "Download for Mac" button (make sure it says "Universal" or matches your chip, like Intel or Apple Silicon/M1/M2/M3
@@ -46,7 +49,7 @@ You have now:
 - Set up Python in VS Code
 - Ran your very first python code!
 
-# Set up a Project and Virtual Environment (Recommended)
+# Set up a Project and Virtual Environment (Recommended) 🧑‍💻👩‍💻👾
 
 ## Step 1: Create Project Folder
 1. Open Terminal
