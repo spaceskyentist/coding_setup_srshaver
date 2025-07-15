@@ -27,7 +27,7 @@
 
 ### Option 2.2: You're given a `requirements.txt` file to install necessary dependencies
 
-# Step 4: Check that it works! (Optional)
+## Step 4: Check that it works! (Optional)
 1. Create a file in your project to check that PySpedas is working by: **File > New File >** `pyspedas_test.py`, or the little button next to your project name that looks like a piece of paper with a plus sign.
 2. Paste this starter code:
 
@@ -38,4 +38,6 @@
 4. Run the Python code by right-clicking in the editor and choose "Run Python File in Terminal", or click the Run ▷ button in the top-right.
 5. Yay! It works! (Celebration wiggle). *or* Oh no! It does not work. (Whomp whomp).
 
-    
+## Tips:
+- Other packages can be installed and checked in this way
+- Some useful packages include `numpy`, `matplotlib`, `pandas`, etc.
