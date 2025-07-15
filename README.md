@@ -12,4 +12,6 @@ I had to do this one too many times, so I hope this helps y'all (and probably me
 
 **Step 4:** [Install PySpedas, and Other Packages in Virtual Environment](https://github.com/spaceskyentist/coding_setup_srshaver/blob/002383638d8b5081f6f9c7d6aedb9b7477399526/step4_pyspedas.md)
 
+**Step 5:** [Enable iPython Notebooks inside your Virtual Environment](https://github.com/spaceskyentist/coding_setup_srshaver/blob/0f5c408165190b4988dec1b4e58ea7e4cc3f7230/step5_ipynb_venv.md)
+
 You did it! Get Shwifty.
