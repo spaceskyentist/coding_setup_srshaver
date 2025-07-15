@@ -33,5 +33,12 @@
 3. Navigate to your `.ipynb` file and open it.
 4. Under *Kernel* --> *Change Kernel*, select **"Python (my-venv-name)"**.
 
+## Step 5: Lock it in
+Optional: Once it's working you can run:
+
+   ` pip freeze > requirements.txt `
+
+   To lock the environment in case you revisit it later.
+
 ## ✅ Done!
 You're now running notebooks inside your virtual environment with all your installed packages. 
