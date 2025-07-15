@@ -10,6 +10,6 @@ I had to do this one too many times, so I hope this helps y'all (and probably me
 
 **Step 3:** [Configure Git and GitHub](https://github.com/spaceskyentist/coding_setup_srshaver/blob/41a3125250761ea0810124a2f3237492d70f85bb/step3_config_git.md)
 
-**Step 4** [Install PySpedas, and Other Packages in Venv](https://github.com/spaceskyentist/coding_setup_srshaver/blob/002383638d8b5081f6f9c7d6aedb9b7477399526/step4_pyspedas.md)
+**Step 4:** [Install PySpedas, and Other Packages in Virtual Environment](https://github.com/spaceskyentist/coding_setup_srshaver/blob/002383638d8b5081f6f9c7d6aedb9b7477399526/step4_pyspedas.md)
 
 You did it! Get Shwifty.
