@@ -20,7 +20,7 @@ You should see something like 'Python 3.12.3' (or whichever version you installe
 1. Open VS Code
 2. Click the **Extensions icon** on the sidebar (or press `⇧⌘X`).
 3. In the search bar, type **Python** and install the official one from **Microsoft**
-4. Once installed, it will help with syntax highlighting, linting, running Python files, etc.
+4. Once installed, it will help with syntax highlighting, running Python files, etc.
 
 ## Step 4: Set Python Interpreter in VS Code
 1. Open a Python file (or create a new one with '.py' extension).
