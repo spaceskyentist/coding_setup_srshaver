@@ -1,5 +1,5 @@
 # coding_setup_srshaver
-This repository contains a step-by-step guide to setting up coding software on your Mac. 
+This repository contains a step-by-step guide to setting up coding software on your **Mac**. 
 
 ## Step 1: Download and Install VSCode
 1. Go to the VS Code website: [vscode](https://code.visualstudio.com)
@@ -13,8 +13,31 @@ This repository contains a step-by-step guide to setting up coding software on y
 3. Open the '.pkg' file once downloaded and go through the installer steps.
 4. After installation, open Terminal (you can search for it via Spotlight), and type:
 
-`python3 -- version`
+  `python3 -- version`
 
 You should see something like 'Python 3.12.3' (or whichever version you installed).
 
-## Step 3: 
+## Step 3: Add Python Extension in VS Code
+1. Open VS Code
+2. Click the **Extensions icon** on the sidebar (or press `⇧⌘X`).
+3. In the search bar, type **Python** and install the official one from **Microsoft**
+4. Once installed, it will help with syntax highlighting, linting, running Python files, etc.
+
+## Step 4: Set Python Interpreter in VS Code
+1. Open a Python file (or create a new one with '.py' extension).
+2. In the bottom-left corner, you’ll see `Python x.x.x.` Click it.
+3. Choose the interpreter that says something like:
+
+   `/usr/local/bin/python3`
+   
+## Step 5: Run Python Code
+1. Create a file like `hello.py`
+2. Write:
+
+  `print("Hello, world!")`
+
+3. Right-click in the editor and choose "Run Python File in Terminal", or click the play button in the top-right.
+4. Yay! It works! (Celebration wiggle).
+
+## Step 6: Set up a Project and Virtual Environment (Recommended)
+
