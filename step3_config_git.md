@@ -32,7 +32,7 @@
    ```
      This file tells GitHub what to ignore in your Project folder when commiting messages, perfoming merges, push/pull commands, etc. If you don't do this, you'll likely have *thousands* of commits that can overload these commands!
 
-## Step 3: Stage and Commit your files
+## Step 4: Stage and Commit your files
 1. In Terminal, run the following:
 
    ```
@@ -40,14 +40,14 @@
    git commit -m "Initial commit"
    ```
 
-## Step 4: Use VS Code's Git Interface
+## Step 5: Use VS Code's Git Interface
 1. Now that Git is initialized, you'll see source control options in the VS Code sidebar:
    - Click the **Source Control icon*** (third icon from the top or `⌃⇧G`)
    - You'll see your project files listed as changes
    - Type a message in the box (e.g., "Initial commit") and hit the checkmark ✔️ to commit
 
-## Step 5: Conenct to GitHub Repository (Optional, Recommended)
-### Option 5.1: If you already have a GitHub repo:
+## Step 6: Conenct to GitHub Repository (Optional, Recommended)
+### Option 6.1: If you already have a GitHub repo:
 1. In Terminal, run the following:
 
    ```
@@ -58,7 +58,11 @@
 
 You may be prompted to log into GitHub via your browser or VS Code. Do it... or else...
 
-## Step : Configure Git Username and Email
+### Option 6.2: If you need to create a GitHub repo:
+1. Look it up. I can't do *everything* right now. It's decently straigtforward: [Go to GitHub](https://github.com/)
+2. See Option 6.1
+
+## Step 7: Configure Git Username and Email
 1. Run these two commands (replacing the info with your own):
 
    ` git config --global user.name "Firstname Lastname" `
@@ -70,7 +74,7 @@ You may be prompted to log into GitHub via your browser or VS Code. Do it... or 
    
     ` git config --global user.name "myemail@mail.com" `
 
-## Step : Re-run the commit command
+## Step 8: Re-run the commit command
 1. In Terminal in your project folder, in the virtual environment, run:
 
     ` git commit -m "Merging remote origin/main with local project" `
