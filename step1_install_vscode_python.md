@@ -35,7 +35,7 @@ You should see something like 'Python 3.12.3' (or whichever version you installe
 
     `print("Hello, world!")`
 
-3. Right-click in the editor and choose "Run Python File in Terminal", or click the play button in the top-right.
+3. Right-click in the editor and choose "Run Python File in Terminal", or click the Run ▷ button in the top-right.
 4. Yay! It works! (Celebration wiggle).
 
 ## ✅ Done!
