@@ -10,4 +10,4 @@ Step 2: [Set up Project and Virtual Environment in VS Code](https://github.com/s
 
 Step 3: [Configure Git and GitHub](https://github.com/spaceskyentist/coding_setup_srshaver/blob/41a3125250761ea0810124a2f3237492d70f85bb/step3_config_git.md)
 
-Get Shwifty.
+Get Shwifty. You did it.
