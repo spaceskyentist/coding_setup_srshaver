@@ -13,7 +13,7 @@ This repository contains a step-by-step guide to setting up coding software on y
 3. Open the '.pkg' file once downloaded and go through the installer steps.
 4. After installation, open Terminal (you can search for it via Spotlight), and type:
 
-  `python3 -- version`
+    `python3 -- version`
 
 You should see something like 'Python 3.12.3' (or whichever version you installed).
 
@@ -34,10 +34,67 @@ You should see something like 'Python 3.12.3' (or whichever version you installe
 1. Create a file like `hello.py`
 2. Write:
 
-  `print("Hello, world!")`
+    `print("Hello, world!")`
 
 3. Right-click in the editor and choose "Run Python File in Terminal", or click the play button in the top-right.
 4. Yay! It works! (Celebration wiggle).
 
-## Step 6: Set up a Project and Virtual Environment (Recommended)
+# Set up a Project and Virtual Environment (Recommended)
 
+## Step 1: Create Project Folder
+1. Open Terminal
+2. Create a folder/directory with a name of your choosing:
+
+    `mkdir my-python-project`
+
+    `cd my-python-project `
+
+3. **OR** just create a folder in Finder and open it in VS Code
+
+## Step 2: Open Project in VS Code
+1. Open VS Code
+2. choose **File > Open Folder**
+
+## Step 3: Create Virtual Environment (Recommended)
+1. Open Terminal
+     a. Open Terminal from Mac
+     b. Open Terminal inside VS Code
+         i. Select `Terminal` from top menu bar inside VS Code
+         ii. Select `New Terminal` or use `` ⌃⇧` ``
+3. Navigate to your project folder (see above)
+4. Inside Terminal type
+
+    ` python3 -m venv my-venv-name`
+   
+   This creates a `my-venv-name/` folder that isolates your project's dependencies (like packages).
+
+## Step 4: Activate the Virtual Environment
+1. In terminal, in project folder, run:
+
+   ` source my-venv-name/bin/activate`
+
+   You'll see your terminal prompt change to show `(my-venv-name)`
+
+## Step 5: Create Project Files
+1. Inside your project folder, create:
+   - `main.py` - Your starting Python script
+   - `requirements.txt` - list of pip packages (optional for now, but good practice)
+   - `.gitignore` - if using Git, these are the folders/scripts to ignore in version control syncing (include `my-venv-name/`).
+2. In VS Code:
+   - Click **File > New File** > name it `main.py`
+   - add this test code: `print("Hello from my project!")`
+   - Run file and check that it's working :)
+
+## Step 6: Select Python Interpreter in VS Code
+1. Press `⇧⌘P` or (View > Command Palette).
+2. Type: `Python: Select Interpreter`
+3. Choose the one that looks like:
+
+       `./my-venv-name/bin/python`
+
+   This ensures VS Code uses the virtual environment's Python.
+
+## Step 7: Install any dependencies
+### Option 7.1: Install from Scratch
+### Option 7.2: Install from a 'requirements.txt' file given to you
+     
