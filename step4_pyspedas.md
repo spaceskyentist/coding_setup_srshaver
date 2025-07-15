@@ -26,6 +26,11 @@
    To lock the environment in case you revisit it later, or want to provide dependencies to other/future users of your project code. 
 
 ### Option 2.2: You're given a `requirements.txt` file to install necessary dependencies
+1. Make sure the `requirements.txt` file is in your current directory
+2. In Terminal, run:
+
+   `pip install -r requirements.txt `   
+   
 
 ## Step 4: Check that it works! (Optional)
 1. Create a file in your project to check that PySpedas is working by: **File > New File >** `pyspedas_test.py`, or the little button next to your project name that looks like a piece of paper with a plus sign.
@@ -41,3 +46,9 @@
 ## Tips:
 - Other packages can be installed and checked in this way
 - Some useful packages include `numpy`, `matplotlib`, `pandas`, etc.
+- You can install mutiple packages at once in your Terminal by running:
+
+  `pip install numpy matplotlib pyspedas`
+- You can install a certain version of a package in Terminal by running:
+
+  `pip install pyspedas==1.7.26`
