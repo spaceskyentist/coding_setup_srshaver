@@ -80,9 +80,12 @@ You may be prompted to log into GitHub via your browser or VS Code. Do it... or 
 
     ` git commit -m "Merging remote origin/main with local project" `
 
-2. Then:
+2. Then push everything from your local device (your computer) to your GitHub repo on the web:
 
      ` git push `
+3. If you want, you can pull everything from the web to your computer, just to be *super certain* everything is matching up:
+
+   ` git pull `
    
 ## VS Code Git Tips
 - You can **see changes** by clicking on each file in the Source Control panel
