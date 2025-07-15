@@ -86,7 +86,13 @@ You may be prompted to log into GitHub via your browser or VS Code. Do it... or 
 3. If you want, you can pull everything from the web to your computer, just to be *super certain* everything is matching up:
 
    ` git pull `
-   
+
+## ✅ Done!
+You now have installed git for version control of your code, and have your own repository up and running!
+- A virtual environment
+- Your own workspace in VS Code
+- Reproducibility for sharing or deployment
+  
 ## VS Code Git Tips
 - You can **see changes** by clicking on each file in the Source Control panel
 - Use **"..." > View >  Commit History** to see Git history
