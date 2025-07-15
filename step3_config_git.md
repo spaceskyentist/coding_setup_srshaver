@@ -32,12 +32,39 @@
    ```
      This file tells GitHub what to ignore in your Project folder when commiting messages, perfoming merges, push/pull commands, etc. If you don't do this, you'll likely have *thousands* of commits that can overload these commands!
 
+## Step 3: Stage and Commit your files
+1. In Terminal, run the following:
+
+   ```
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+## Step 4: Use VS Code's Git Interface
+1. Now that Git is initialized, you'll see source control options in the VS Code sidebar:
+   - Click the **Source Control icon*** (third icon from the top or `⌃⇧G`)
+   - You'll see your project files listed as changes
+   - Type a message in the box (e.g., "Initial commit") and hit the checkmark ✔️ to commit
+
+## Step 5: Conenct to GitHub Repository (Optional, Recommended)
+### Option 5.1: If you already have a GitHub repo:
+1. In Terminal, run the following:
+
+   ```
+   git remote add origin htts://github.com/you-username/your-repo-name.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+You may be prompted to log into GitHub via your browser or VS Code. Do it... or else...
+
 ## Step : Configure Git Username and Email
 1. Run these two commands (replacing the info with your own):
-    ` git config --global user.name "Space Skyentist" `
+
+   ` git config --global user.name "Firstname Lastname" `
 
     ` git config --global user.email "your-email@example.com" `
-2. ⚠️**Note**: Use the **email associated with your GitHub account** so GitHub links your commits to your profile
+3. ⚠️**Note**: Use the **email associated with your GitHub account** so GitHub links your commits to your profile
 
     For example, if your GitHub email is `myemail@mail.com`, run:
    
@@ -52,3 +79,7 @@
 
      ` git push `
    
+## VS Code Git Tips
+- You can **see changes** by clicking on each file in the Source Control panel
+- Use **"..." > View >  Commit History** to see Git history
+- Press `⌘ShiftP` and type `Git:` to see all available Git commands
