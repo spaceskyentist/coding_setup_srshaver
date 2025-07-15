@@ -1,4 +1,4 @@
-# coding_setup_srshaver
+# Coding Environment Setup
 This repository contains a step-by-step guide to setting up coding software on your **Mac**. 
 
 Step 1: [Install VS Code and Python](https://github.com/spaceskyentist/coding_setup_srshaver/blob/76bab996c8380504de6eb52cf532b68df50aa5ce/step1_install_vscode_python.md)
