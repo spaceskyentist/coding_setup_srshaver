@@ -33,7 +33,7 @@
 3. Navigate to your `.ipynb` file and open it.
 4. Under *Kernel* --> *Change Kernel*, select **"Python (my-venv-name)"**.
 
-## Step 5: Lock it in
+## Step 5: Lock it in (Optional)
 Optional: Once it's working you can run:
 
    ` pip freeze > requirements.txt `
