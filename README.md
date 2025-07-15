@@ -39,6 +39,13 @@ You should see something like 'Python 3.12.3' (or whichever version you installe
 3. Right-click in the editor and choose "Run Python File in Terminal", or click the play button in the top-right.
 4. Yay! It works! (Celebration wiggle).
 
+## ✅ Done!
+You have now: 
+- Downloaded and installed VS Code
+- Downloaded and installed Python on your computer
+- Set up Python in VS Code
+- Ran your very first python code!
+
 # Set up a Project and Virtual Environment (Recommended)
 
 ## Step 1: Create Project Folder
@@ -71,30 +78,54 @@ You should see something like 'Python 3.12.3' (or whichever version you installe
 ## Step 4: Activate the Virtual Environment
 1. In terminal, in project folder, run:
 
-   ` source my-venv-name/bin/activate`
+   ` source my-venv-name/bin/activate `
 
-   You'll see your terminal prompt change to show `(my-venv-name)`
+   You'll see your terminal prompt change to show ` (my-venv-name) `
 
 ## Step 5: Create Project Files
 1. Inside your project folder, create:
-   - `main.py` - Your starting Python script
-   - `requirements.txt` - list of pip packages (optional for now, but good practice)
-   - `.gitignore` - if using Git, these are the folders/scripts to ignore in version control syncing (include `my-venv-name/`).
+   - ` main.py ` - Your starting Python script
+   - ` requirements.txt ` - list of pip packages (optional for now, but good practice)
+   - ` .gitignore ` - if using Git, these are the folders/scripts to ignore in version control syncing (include ` my-venv-name/ `).
 2. In VS Code:
-   - Click **File > New File** > name it `main.py`
-   - add this test code: `print("Hello from my project!")`
-   - Run file and check that it's working :)
+   - Click **File > New File** > name it ` main.py `
+   - add this test code: ` print("Hello from my project!") `
 
 ## Step 6: Select Python Interpreter in VS Code
 1. Press `⇧⌘P` or (View > Command Palette).
-2. Type: `Python: Select Interpreter`
+2. Type: ` Python: Select Interpreter `
 3. Choose the one that looks like:
 
-       `./my-venv-name/bin/python`
+   ` ./my-venv-name/bin/python `
 
    This ensures VS Code uses the virtual environment's Python.
 
 ## Step 7: Install any dependencies
-### Option 7.1: Install from Scratch
+### Option 7.1: Install from scratch
+1. To install any packages, type in terminal:
+
+     ` pip install matplotlib`
+ 2. Then save them to `requirements.txt `:
+
+    ` pip freeze > requirements.txt `
+
 ### Option 7.2: Install from a 'requirements.txt' file given to you
      
+## Step 8: Run Your Code
+1. In VS Code
+   - Click the ` ▷Run ` button in the upper right
+   - Or right click in the editor **> Run Python File in Terminal**
+
+## Step 9: Deactivate the Environment when Done
+1. In Terminal type:
+
+    ` deactivate `
+2. To reactivate later:
+
+   ` source my-venv-name/bin/activate `
+
+## ✅ Done!
+You now have a clean, isolated Python project set up with:
+- A virtual environment
+- Your own workspace in VS Code
+- Reproducibility for sharing or deployment
