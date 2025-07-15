@@ -88,10 +88,10 @@ You may be prompted to log into GitHub via your browser or VS Code. Do it... or 
    ` git pull `
 
 ## ✅ Done!
-You now have installed git for version control of your code, and have your own repository up and running!
-- A virtual environment
-- Your own workspace in VS Code
-- Reproducibility for sharing or deployment
+You now have installed git for version control of your code, and have your own repository up and running with:
+- git in VS Code
+- VS Code synced with your external GitHub repository
+- a .gitignore file that ensures the correct files get synced
   
 ## VS Code Git Tips
 - You can **see changes** by clicking on each file in the Source Control panel
