@@ -16,10 +16,14 @@
 
 ## Step 3: Create Virtual Environment (Recommended)
 1. Open Terminal
-     a. Open Terminal from Mac
-     b. Open Terminal inside VS Code
-         i. Select `Terminal` from top menu bar inside VS Code
-         ii. Select `New Terminal` or use `` ⌃⇧` ``
+
+   a. Open Terminal from Mac
+
+   b. Open Terminal inside VS Code
+
+       i. Select `Terminal` from top menu bar inside VS Code
+
+       ii. Select `New Terminal` or use `` ⌃⇧` ``
 3. Navigate to your project folder (see above)
 4. Inside Terminal type
 
