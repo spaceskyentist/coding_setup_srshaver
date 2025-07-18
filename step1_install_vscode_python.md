@@ -14,7 +14,7 @@
 
     `python3 --version`
 
-You should see something like 'Python 3.12.3' (or whichever version you installed).
+You should see something like 'Python 3.12.3' (or whatever version you installed).
 
 ## Step 3: Add Python Extension in VS Code
 1. Open VS Code
