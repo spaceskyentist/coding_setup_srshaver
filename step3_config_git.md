@@ -52,7 +52,7 @@ Optional, but useful!
 2. Run the following:
         `source my-venv-name/bin/activate`
 
-## Step 6: Conenct to GitHub Repository (Optional, Recommended)
+## Step 6: Connect to GitHub Repository (Optional, Recommended)
 ### Option 6.1: If you already have an *empty* GitHub repo:
 1. In Terminal, run the following:
 
@@ -64,7 +64,7 @@ Optional, but useful!
 
 You may be prompted to log into GitHub via your browser or VS Code. Do it... or else...
 
-### Option 6.2: If you have a populated GitHub repo:
+### Option 6.2: If you have an established and populated GitHub repo:
 1. If you have a project folder, but it's not yet connected to GitHub do:
 
    In Terminal, in VS Code, run the following:
