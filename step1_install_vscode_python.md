@@ -12,7 +12,7 @@
 3. Open the '.pkg' file once downloaded and go through the installer steps.
 4. After installation, open Terminal (you can search for it via Spotlight), and type:
 
-    `python3 -- version`
+    `python3 --version`
 
 You should see something like 'Python 3.12.3' (or whichever version you installed).
 
