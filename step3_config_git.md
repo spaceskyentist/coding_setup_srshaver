@@ -143,3 +143,43 @@ You now have installed git for version control of your code, and have your own r
 - You can **see changes** by clicking on each file in the Source Control panel
 - Use **"..." > View >  Commit History** to see Git history
 - Press `⌘ShiftP` and type `Git:` to see all available Git commands
+
+## 😩 "Divergent Branches" Error
+If you need to reconcile divergent branches, you can do the following:
+
+1. In terminal, run:
+
+     ```
+     git status
+     ```
+
+   If you get the message "Your branch and 'origin/main' have diverged, ...", then you probably did a local commit before pulling the GitHub repo.
+
+### Option 1: If you don't care about local changes and want to match your GitHub repo:
+1. If you are willing to lose your local commits (changes, notes to self) then run:
+
+   ```
+   git fetch origin
+   git reset --hard origin/main
+   ```
+### Option 2: If you want to merge your local changes with remote changes (safest bet).
+1. Run this to merge everything, and do a pull request:
+
+   ```
+   git config pull.rebase false
+   git pull
+   ```
+   
+2. If you want to set your git to merge discrepancies automatically in the future, run:
+
+     ```
+     git config --global pull.rebase false
+     ```
+
+### Option 3: If you want a linear history of commits (rebase instead of merge).
+1. If you want your local commits to be on top of the remote commits (cleaner history) then run:
+
+   ```
+   git config pull.rebase true
+   git pull
+   ```
