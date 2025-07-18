@@ -47,6 +47,11 @@ Optional, but useful!
    - You'll see your project files listed as changes
    - Type a message in the box (e.g., "Initial commit") and hit the checkmark ✔️ to commit
 
+## Note 🏁: If you have to restart VS Code, reset your venv too
+1. Navigate to your project folder
+2. Run the following:
+        `source my-venv-name/bin/activate`
+
 ## Step 6: Conenct to GitHub Repository (Optional, Recommended)
 ### Option 6.1: If you already have a GitHub repo:
 1. In Terminal, run the following:
