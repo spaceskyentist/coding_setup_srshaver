@@ -53,7 +53,7 @@ Optional, but useful!
         `source my-venv-name/bin/activate`
 
 ## Step 6: Conenct to GitHub Repository (Optional, Recommended)
-### Option 6.1: If you already have a GitHub repo:
+### Option 6.1: If you already have an *empty* GitHub repo:
 1. In Terminal, run the following:
 
    ```
@@ -64,7 +64,42 @@ Optional, but useful!
 
 You may be prompted to log into GitHub via your browser or VS Code. Do it... or else...
 
-### Option 6.2: If you need to create a GitHub repo:
+### Option 6.2: If you have a populated GitHub repo:
+1. If you have a project folder, but it's not yet connected to GitHub do:
+
+   In Terminal, in VS Code, run the following:
+
+   ```
+   git remote add origin htts://github.com/you-username/your-repo-name.git
+   git pull origin main
+   ```
+   Make sure your local branch tracks the remote branch:
+
+   ```
+   git branch --set-upstream-to=origin/main main
+   ```
+
+2. If you haven't set up the folder (AKA cloned the repository) do:
+
+   In Terminal, in VS Code, navigate to where you want the folder to go.
+
+   ```
+   cd path/to/your/desired/folder
+   ```
+
+   Clone your GitHub repo:
+
+   ```
+     git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+   Open the folder in VS Code:
+
+   ```
+   cd your-repo-name
+   ```
+
+### Option 6.3: If you need to create a GitHub repo:
 1. Look it up. I can't do *everything* right now. It's decently straigtforward: [Go to GitHub](https://github.com/)
 2. See Option 6.1
 
