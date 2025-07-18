@@ -99,6 +99,12 @@ You may be prompted to log into GitHub via your browser or VS Code. Do it... or 
    cd your-repo-name
    ```
 
+   Make sure your local branch tracks the remote branch:
+
+   ```
+   git branch --set-upstream-to=origin/main main
+   ```
+   
 ### Option 6.3: If you need to create a GitHub repo:
 1. Look it up. I can't do *everything* right now. It's decently straigtforward: [Go to GitHub](https://github.com/)
 2. See Option 6.1
