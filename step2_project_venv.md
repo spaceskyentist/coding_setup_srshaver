@@ -1,5 +1,7 @@
 # Set up a Project and Virtual Environment (Recommended) 🧑‍💻👩‍💻👾
 
+This instruction guide will help you to create a new project within VS Code, and set up a new virtual environment. If you already have done this and would like to use your previously created project (stored somewhere, e.g., on GitHub), then proceed to step 3: configure Git/GitHub. 
+
 ## Step 1: Create Project Folder
 1. Open Terminal
 2. Create a folder/directory with a name of your choosing:
