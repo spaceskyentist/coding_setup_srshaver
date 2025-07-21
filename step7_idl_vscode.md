@@ -30,30 +30,6 @@ You've got this!
 
 This ensures that your `.pro` programs have an IDL icon next to them so that they're easily recognizable in your folder.
 
-
-## (Optional) Settings Configuration, Add Paths to Workspace:
-1. Add Auto-Documentation generation
-   - Go to IDL sidebar icon
-   - Under quick access, click `Open Extension Settings`, these are the extensions provided by IDL for VSCode
-      - General Formatting changes:
-         - autoDoc : true/false
-           - when formatting code, automatically update documentation
-2. Change coloring of issues with IDL programs
-    IDL for VSCode reports issues with code within your folder. The color themes will turn your `.pro` files yellow or red if they detect a problem (e.g., `unused variable` etc.)
-
-   If you don't like this then you can change the settings:
-   - Go to IDL side bar (icon on far left)
-   - Under quick access, click `Open Extension Settings`, these are the extensions provided by IDL for VSCode
-   - Select `Problem reporting`
-   - Scroll to bottom and de-select the option for `Problems: Report Problem`
-4. **Add Paths** for IDL, adding workspaces to workpath
-     - Go to IDL sidebar icon
-     - Under quick access, click `Open Extension Settings`
-     - Under User → Extensions → IDL for VSCode → IDL
-     - You can add in other folders by scrolling all the way to the bottom, and under `idl.IDL:Path` you can click `Add Item` to add paths
-        - plus sign before path adds all the folders under a folder
-        - get used when you start up IDL debug session, or IDL notebooks
-
 ## Step 5: Create a `.pro` file
 1. Return to your project folder
 2. Create a new file called `hello.pro'
@@ -89,6 +65,30 @@ This ensures that your `.pro` programs have an IDL icon next to them so that the
    - type `hello` to run your "Hello.pro" program
 
 
+## Settings Configuration (Optional) 
+1. Add Auto-Documentation generation
+   - Go to IDL sidebar icon
+   - Under quick access, click `Open Extension Settings`, these are the extensions provided by IDL for VSCode
+      - General Formatting changes:
+         - autoDoc : true/false
+           - when formatting code, automatically update documentation
+2. Change coloring of issues with IDL programs
+    IDL for VSCode reports issues with code within your folder. The color themes will turn your `.pro` files yellow or red if they detect a problem (e.g., `unused variable` etc.)
+
+   If you don't like this then you can change the settings:
+   - Go to IDL side bar (icon on far left)
+   - Under quick access, click `Open Extension Settings`, these are the extensions provided by IDL for VSCode
+   - Select `Problem reporting`
+   - Scroll to bottom and de-select the option for `Problems: Report Problem`
+
+## Setting Paths to Workspace (Optional)
+**Add Paths** for IDL, adding workspaces to workpath
+     - Go to IDL sidebar icon
+     - Under quick access, click `Open Extension Settings`
+     - Under User → Extensions → IDL for VSCode → IDL
+     - You can add in other folders by scrolling all the way to the bottom, and under `idl.IDL:Path` you can click `Add Item` to add paths
+        - plus sign before path adds all the folders under a folder
+        - get used when you start up IDL debug session, or IDL notebooks
 
 
 
