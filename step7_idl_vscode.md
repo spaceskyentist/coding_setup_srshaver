@@ -59,7 +59,44 @@ There ya go!
 3. In the new file, type:
 
    ```
+   pro hello
+   
    print, "Hello, world!"
+
+   end
    ```
   and save file. 
+
+## Step 6: Start up IDL
+1. Click IDL sidebar icon!
+
+      <img width="77" height="83" alt="Screenshot 2025-07-21 at 11 03 49 AM" src="https://github.com/user-attachments/assets/42ff56c9-2f46-420e-b4ce-549eadb89652" /> 
+
+3. Under `IDL` click `Start` (a session of IDL)
+  - This opens a Debug Console in VS Code, just like in the workbench!
+  - Also opens a work bar for running IDL code
+
+      <img width="275" height="48" alt="Screenshot 2025-07-21 at 11 05 27 AM" src="https://github.com/user-attachments/assets/0e495f38-507a-48cc-a35c-0e9266228915" />
+
+## Step 7: Running IDL (2 options)
+1. Within the debug console, you can click the run button on the workbar
+
+      <img width="29" height="44" alt="Screenshot 2025-07-21 at 11 07 55 AM" src="https://github.com/user-attachments/assets/8609bd5e-1f59-4741-9e9b-fdc14abdc1f1" />
+
+2. Or go to the embedded Terminal within VSCode (if you don't need the debugger)
+   - type `idl` to start idl in Terminal
+   - type `hello` to run your "Hello.pro" program
+
+
+## Step 8: IDL Notebooks
+1. Click IDL sidebar icon
+2. Under "Notebooks" click: `New IDL Notebook`
+3. Name your new notebook and save it in your project folder (e.g. 'first_notebook.idlnb`)
+4. Now you can mix text and code like Python Notebooks!
+5. You can execute different cells one at a time, or run all together.
+
+
+
+
+    
 
