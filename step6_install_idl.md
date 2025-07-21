@@ -79,8 +79,14 @@ To make IDL available in any terminal session:
    ```
    nano ~/.zshrc
    ```
+
+   and/or
+   ```
+    nano ~/.bash_profile
+   ```
    
-2. Add:
+   
+3. Add:
    
    ```
    export PATH="/Applications/NV5/idl/bin:$PATH"
