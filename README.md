@@ -4,7 +4,7 @@ I had to do this one too many times, so I hope this helps y'all (and probably me
 
 ~ * you're welcome, future selves * ~
 
-Note: Already used once as a future self. Yes, thank you, old, wise, self.
+Note: Already used once as a future self. Yes, thank you, old, wise self.
 
 ## Installing VS Code and Python
 
