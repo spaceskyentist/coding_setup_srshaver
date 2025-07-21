@@ -43,13 +43,14 @@ There ya go!
 ## (Optional) Settings Configuration:
 1. Go to IDL sidebar icon
 2. Under quick access, click `Open Extension Settings`, these are the extensions provided by IDL for VSCode
-3. Formatting changes:
-   - autoDoc : true/false
+   - General Formatting changes:
+      - autoDoc : true/false
         - when formatting code, automatically update documentation
-4. IDL
-   - How IDL workspaces get added to IDL workpath
-   - This is pretty good on its own
-   - You can add in other folders by scrolling all the way to the bottom, and under `idl.IDL:Path` add paths
+3. **Add Paths** for IDL, adding workspaces to workpath
+  - Go to IDL sidebar icon
+  - Under quick access, click `Open Extension Settings`
+      - Under User/Extensions/IDL for VSCode/IDL
+      - You can add in other folders by scrolling all the way to the bottom, and under `idl.IDL:Path` you can click `Add Item` to add paths
         - plus sign before path adds all the folders under a folder
         - get used when you start up IDL debug session, or IDL notebooks
 
