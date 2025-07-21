@@ -38,7 +38,38 @@ IDL is currently being developed by NV5, so you'll need a license from your inst
 5. When prompted, enter your license information:
      - You can use a **license file** or connect to a **license server.**
      - ⚠️ If you’re using a license server, make sure your network settings allow access to it.
-     - 
 
+## Step 5: Test Installation
+1. Open terminal and run
+
+   ```
+   idl
+   ```
+
+   Or, if IDL isn't in your path, run:
+
+    ```
+   /Applications/NV5/idl/bin/idl
+   ```
+
+   Or, if you have an older version, run:
+   
+   ```
+   /Applications/harris/idl/bin/idl
+   ```
+
+1. You should see an interactive prompt come up `IDL> `
+
+   You can type:
+
+   ```
+   IDL> print, "Hello, world!"
+   Hello, world!
+   ```
+2. Then exit IDL by typing:
+
+   ```
+   IDL>exit
+   ```
    
 
