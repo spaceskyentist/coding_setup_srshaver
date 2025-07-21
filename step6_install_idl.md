@@ -72,4 +72,32 @@ IDL is currently being developed by NV5, so you'll need a license from your inst
    IDL>exit
    ```
    
+## Optional Step 7: Add IDL to your Shell path
+To make IDL available in any terminal session:
+1. Open your shell config file (`~/.zshrc`, `~/.bash_profile`, or similar):
+
+   ```
+   nano ~/.zshrc
+   ```
+   
+2. Add:
+   
+   ```
+   export PATH="/Applications/NV5/idl/bin:$PATH"
+   ```
+
+   Or, if using an older IDL:
+
+   ```
+   export PATH="/Applications/harris/idl/bin:$PATH"
+   ```
+
+4. Exit nano:
+   - Press "Control X" (`⌃X`) to exit
+   - Type `Y` to save changes
+   - Press enter (`⏎`) to save filename
+5. Save and reload
+     ```
+     source ~/.zshrc
+     ```
 
