@@ -82,7 +82,8 @@ This ensures that your `.pro` programs have an IDL icon next to them so that the
    - Scroll to bottom and de-select the option for `Problems: Report Problem`
 
 ## Setting Paths to Workspace (Optional)
-**Add Paths** for IDL, adding workspaces to workpath
+
+1. **Add Paths** for IDL, adding workspaces to workpath
      - Go to IDL sidebar icon
      - Under quick access, click `Open Extension Settings`
      - Under User → Extensions → IDL for VSCode → IDL
