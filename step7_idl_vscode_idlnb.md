@@ -1,4 +1,4 @@
-# Running IDL through VS Code
+# Running IDL through VS Code, IDL Notebooks
 
 You can now run IDL through VS Code as they are [offering an extension](https://www.nv5geospatialsoftware.com/Support/Maintenance-Detail/back-to-the-future-idl174-for-visual-studio-code) in the IDE. Even more information can be found:
 - [Here for basic info](https://marketplace.visualstudio.com/items?itemName=IDL.idl-for-vscode) 
