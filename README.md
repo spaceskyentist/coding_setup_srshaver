@@ -22,4 +22,4 @@ You did it! Get Shwifty.
 
 ## Installing IDL
 
-
+**Step 6:** [Install IDL](https://github.com/spaceskyentist/coding_setup_srshaver/blob/a1d5c821d220f2a00347823d7430d6fb39c66b33/step6_install_idl.md)
