@@ -4,6 +4,8 @@ You can now run IDL through VS Code as they are [offering an extension](https://
 - [Here for basic info](https://marketplace.visualstudio.com/items?itemName=IDL.idl-for-vscode) 
 - [Here for an instruction video](https://www.nv5geospatialsoftware.com/company/events/events-detail/reimagine-the-way-you-program-with-idl-for-vscode)
 
+**Why Use IDL for VSCode?** Well, you can open multiple instances/workspaces of IDL with VS Code, unlike the older IDL workbench. You can compare your IDL code side by side, etc. It's just... better, and more in line with the times.
+
 In this module, we will go through the steps it takes to download and install IDL for VSCode in VSCode.
 
 ⚠️ **Note:** This module assumes you can run IDL from your terminal (i.e., IDL has been added to your PATH). See the previous module on installing IDL for more details.
