@@ -1,0 +1,50 @@
+# Running IDL through VS Code
+
+You can now run IDL through VS Code as they are [offering an extension](https://www.nv5geospatialsoftware.com/Support/Maintenance-Detail/back-to-the-future-idl174-for-visual-studio-code) in the IDE. Even more information can be found:
+- [Here for basic info](https://marketplace.visualstudio.com/items?itemName=IDL.idl-for-vscode) 
+- [Here for an instruction video](https://www.nv5geospatialsoftware.com/company/events/events-detail/reimagine-the-way-you-program-with-idl-for-vscode)
+
+In this module, we will go through the steps it takes to download and install IDL for VSCode in VSCode.
+
+⚠️ **Note:** This module assumes you can run IDL from your terminal (i.e., IDL has been added to your PATH). See the previous module on installing IDL for more details.
+
+## Step 1: Open VS Code
+You've got this!
+
+## Step 2: Download IDL for VSCode!
+1. Navigate to the extensions tab on the left side of VS Code
+2. In the searchbar, type, `IDL for VSCode`, and click the install button.
+
+## Step 3: Choose your color theme
+1. Under the `IDL for VSCode` extension, click `Set Color Theme`
+2. Choose between neon, novus, or retro. You can change this later.
+- Retro: eclipse and IDLWorkbench
+- Novus: New, dark theme. Similar to other VS Code themes
+- Neon: New, dark theme with neon highlighting
+
+## Step 4: Set File Icon Theme
+1.  Under the `IDL for VSCode` extension, click `Set File Icon Theme`
+2.  Make sure that `IDL (Customized Visual Studio Code)` is selected.
+
+This ensures that your `.pro` programs have an IDL icon next to them so that they're easily recognizable in your folder.
+
+## Note: IDL for VSCode reports issues with Code!
+1. The color themes will turn your `.pro` files yellow or red if they detect a problem within them (e.g., `unused variable` etc.)
+2. If you don't like this then you can change the settings:
+- Go to IDL side bar (icon on far left)
+- Under quick access, click `Open Extension Settings`, these are the extensions provided by IDL for VSCode
+- Select `Problem reporting`
+- Scroll to bottom and de-select the option for `Problems: Report Problem`
+
+There ya go!
+
+## Step 5: Create a `.pro` file
+1. Return to your project folder
+2. Create a new file called `hello.pro'
+3. In the new file, type:
+
+   ```
+   print, "Hello, world!"
+   ```
+  and save file. 
+
