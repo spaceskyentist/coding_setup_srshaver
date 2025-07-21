@@ -100,4 +100,13 @@ To make IDL available in any terminal session:
      ```
      source ~/.zshrc
      ```
+6. Now, you can run IDL from your terminal by typing:
+      ```
+      idl
+      ```
 
+   exit IDL in terminal by typing
+
+   ```
+   IDL> exit
+   ```
