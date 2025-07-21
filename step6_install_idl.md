@@ -1,4 +1,4 @@
-# Installing IDL into VS Code
+# Installing IDL 
 
 Ahh the Interactive Data Language. Here we go!
 
