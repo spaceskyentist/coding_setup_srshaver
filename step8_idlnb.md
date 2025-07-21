@@ -30,4 +30,3 @@ IDL notebooks are JSON format
 2. **Don't save all of your graphics for source control** otherwise, you'll be saving a HUGE file that may not make it to your version control.
    - Click `Clear all Outputs` at the top of the IDL Notebook before saving your IDL Notebooks to Git/GitHub
 
-## Note: ⚠️ IDL Notebooks can only be used by people with IDL for VSCode
