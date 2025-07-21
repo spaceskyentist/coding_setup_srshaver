@@ -23,3 +23,7 @@ You did it! Get Shwifty.
 ## Installing IDL
 
 **Step 6:** [Install IDL onto computer](https://github.com/spaceskyentist/coding_setup_srshaver/blob/a1d5c821d220f2a00347823d7430d6fb39c66b33/step6_install_idl.md)
+
+**Step 7:** [IDL for VSCode - Run it!](https://github.com/spaceskyentist/coding_setup_srshaver/blob/e2841d753b5b63bf58371160603c65951c011582/step7_idl_vscode.md)
+
+**Step 8:** [Information about IDL Notebooks](https://github.com/spaceskyentist/coding_setup_srshaver/blob/e2841d753b5b63bf58371160603c65951c011582/step8_idlnb.md)
