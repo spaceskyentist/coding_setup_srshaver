@@ -57,7 +57,7 @@ Optional, but useful!
 1. In Terminal, run the following:
 
    ```
-   git remote add origin htts://github.com/you-username/your-repo-name.git
+   git remote add origin https://github.com/you-username/your-repo-name.git
    git branch -M main
    git push -u origin main
    ```
