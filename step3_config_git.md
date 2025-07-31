@@ -64,6 +64,8 @@ Optional, but useful!
 
 You may be prompted to log into GitHub via your browser or VS Code. Do it... or else...
 
+Also, GitHub has required multifactor authetication. You may need to access GitHub first through SSH (secure shell protocol). Steps to do this are [found here]{https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent}.
+
 ### Option 6.2: If you have an established and populated GitHub repo:
 1. If you have a project folder, but it's not yet connected to GitHub do:
 
