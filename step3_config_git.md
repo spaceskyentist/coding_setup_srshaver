@@ -64,7 +64,7 @@ Optional, but useful!
 
 You may be prompted to log into GitHub via your browser or VS Code. Do it... or else...
 
-Also, GitHub has required multifactor authetication. You may need to access GitHub first through SSH (secure shell protocol). Steps to do this are [found here]{https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent}.
+**Note*: *Also, GitHub has required multifactor authetication. You may need to access GitHub first through SSH (secure shell protocol). Steps to do this are [found here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ### Option 6.2: If you have an established and populated GitHub repo:
 1. If you have a project folder, but it's not yet connected to GitHub do:
@@ -109,7 +109,7 @@ Also, GitHub has required multifactor authetication. You may need to access GitH
    
 ### Option 6.3: If you need to create a GitHub repo:
 1. Look it up, nerd (said lovingly). It's decently straigtforward: [Go to GitHub](https://github.com/)
-2. 📝 Github began asking for a two-factor authentication, so you may need to link your GitHub with SSH instead of HTTPS if you have never used GitHub before. The steps for setting this up are found [here - Generating a new SSH key]{https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent}
+2. 📝 Github began asking for a two-factor authentication, so you may need to link your GitHub with SSH instead of HTTPS if you have never used GitHub before. The steps for setting this up are found [here - Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 3. See Option 6.1
 
 ## Step 7: Configure Git Username and Email
