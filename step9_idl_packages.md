@@ -2,7 +2,7 @@
 Where to find SPEDAS, NASA CDF Routines, SPICE, etc. 
 
 # SPEDAS
-[SPEDAS Wiki.]((https://spedas.org/wiki/index.php?title=Main_Page)
+[SPEDAS Wiki.](https://spedas.org/wiki/index.php?title=Main_Page)
 
 # SPICE
 [SPICE toolkit.]{http://naif.jpl.nasa.gov/naif/toolkit.html}
