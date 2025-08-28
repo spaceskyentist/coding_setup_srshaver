@@ -1,4 +1,4 @@
-<img width="468" height="14" alt="image" src="https://github.com/user-attachments/assets/c229918c-6bdd-462b-b29a-61bac94171e2" /># IDL Packages
+# IDL Packages
 Where to find SPEDAS, NASA CDF Routines, SPICE, etc. 
 
 # SPEDAS
