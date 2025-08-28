@@ -47,7 +47,7 @@ NASA's SPICE toolkit, provided by the Navigation and Ancillary Information Facil
 
 ## SPICE for IDL - Icy for MacOS Mseries chip!
 There has been some issues getting SPICE to run with the ARM Macs, or those with an M Chip.
-A development version of N0067-based Icy is in the works and can be found [here.]{https://naif.jpl.nasa.gov/pub/naif/misc/toolkit_dev/N0067/IDL/MacM1_OSX_clang_64bit/}
+A development version of N0067-based Icy is in the works and can be found [here.](https://naif.jpl.nasa.gov/pub/naif/misc/toolkit_dev/N0067/IDL/MacM1_OSX_clang_64bit/)
 
 
 
