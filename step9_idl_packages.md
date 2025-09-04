@@ -1,6 +1,8 @@
 # IDL Packages
 Where to find SPEDAS, NASA CDF Routines, SPICE, etc. 
 
+This setup was put together by updating past resources put together by Dr. Chris Fowler. 
+
 # SPEDAS
 [SPEDAS Wiki.](https://spedas.org/wiki/index.php?title=Main_Page)
 
