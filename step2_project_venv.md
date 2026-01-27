@@ -33,6 +33,8 @@ This instruction guide will help you to create a new project within VS Code, and
    
    This creates a `my-venv-name/` folder that isolates your project's dependencies (like packages).
 
+   Note, most venvs are conventionally named: `venv`, `.venv`, `env`, or `.env`. I suggest using one of these so that other people's code will catch your virtual environment and not upload all the tidbits that go into it in the future!
+
 ## Step 4: Activate the Virtual Environment
 1. In terminal, in project folder, run:
 
