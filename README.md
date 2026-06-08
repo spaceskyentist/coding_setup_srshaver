@@ -27,3 +27,7 @@ You did it! Get Shwifty.
 **Step 7:** [IDL for VSCode - Run it!](https://github.com/spaceskyentist/coding_setup_srshaver/blob/e2841d753b5b63bf58371160603c65951c011582/step7_idl_vscode.md)
 
 **Step 8:** [Information about IDL Notebooks](https://github.com/spaceskyentist/coding_setup_srshaver/blob/e2841d753b5b63bf58371160603c65951c011582/step8_idlnb.md)
+
+## GitHub and Git Features/Guides
+
+** GitHub Branches** [Create a Branch in VS Code and Merge it Back to Main]
