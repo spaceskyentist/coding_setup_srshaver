@@ -30,4 +30,4 @@ You did it! Get Shwifty.
 
 ## GitHub and Git Features/Guides
 
-** GitHub Branches** [Create a Branch in VS Code and Merge it Back to Main](https://github.com/spaceskyentist/coding_setup_srshaver/blob/ed9abd30cd1784a499286da596031dce9c82bf0f/branching_git.md)
+**GitHub Branches** [Create a Branch in VS Code and Merge it Back to Main](https://github.com/spaceskyentist/coding_setup_srshaver/blob/ed9abd30cd1784a499286da596031dce9c82bf0f/branching_git.md)
